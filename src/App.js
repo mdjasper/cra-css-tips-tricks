@@ -57,6 +57,8 @@ class App extends Component {
           visible={this.state.modalOpen}
           onToggle={this.toggleOpen}
           >
+          <h1>Hello World <span className="icon-mic"></span></h1>
+          <p>Here is some content</p>
         </Modal>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus, sunt dolores quia sed, laboriosam quae vitae quidem corporis aliquam, adipisci officiis vel pariatur nisi quos sit soluta odio molestiae?</p>
